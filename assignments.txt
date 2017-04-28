@@ -146,5 +146,7 @@ make instance iterable and provide the operation sp1+p2, p1-p2. Give your own de
 80  WAP to remove perticular element from a given list for all occurancers
 81. take two lists keys, values and form a dictionary
 82. delete more than one key value pair at a time.
-
- 
+83. s="python program"  output: python marporp.
+84. Use any api service using requests module and parse the data
+85. Write a serivces to provide the data there in the database to the clients
+86. Write a services to create, delete and modify the data which is there in the database.
