@@ -150,3 +150,4 @@ make instance iterable and provide the operation sp1+p2, p1-p2. Give your own de
 84. Use any api service using requests module and parse the data
 85. Write a serivces to provide the data there in the database to the clients
 86. Write a services to create, delete and modify the data which is there in the database.
+87. Write a own_split(data=data,delimeter='\n',keepdelimeter=False) method to keep the delimeter while splitting the data, if the developer pass keepdelimeter=True
