@@ -1,4 +1,4 @@
-1. write a program to findout 
+﻿1. write a program to findout 
 2. write a program to chek given substring is there in actual string or not? (search should be case insensitive)
 3. take a number from the user and check whether even or odd
 4. take a number from the user and check whether it is prime?
@@ -154,3 +154,4 @@ make instance iterable and provide the operation sp1+p2, p1-p2. Give your own de
 88. persons=[{'id':1,'name':"name1"},{'id':2,'name':'namme2'}]. write the pesons info in to file and read and iterate through the data
 89. Get the information from the system for every minute and show the freespace and used space in the RAM. and performance of the CPU.
 90. "[{'id': 1, 'name': 'name1'}, {'id': 2, 'name': 'name2'}]" the data is in the form of string. Conver this in to list of dictionaries
+91. Find the ram and cpu performance for every hour and draw a consolidated bar graph for every day.
