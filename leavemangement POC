@@ -1,0 +1,128 @@
+leave management poc
+Samba Guduru <sambapython@gmail.com>
+	
+May 24
+	
+to bcc: sandeepreddyus, bcc: Ruthvik, bcc: Rajesh, bcc: reddy, bcc: Murali, bcc: kuldeep.kastuv, bcc: Biswajit, bcc: Joel, bcc: joelhyd123, bcc: Margam, bcc: satish, bcc: subhakar, bcc: nithin
+
+Leave Management System
+
+Description:
+
+This tool manages the leaves of all the employees in a company, employees can apply for a leave and manager will have to approve his/her leave, employees can check status of their leave application and send a reminder to manager, once approved, employee will receive an email, Employees can check the calendar for holidays, check their leave balances, and also request for Work-from home permissions using this tool.
+
+Application Flow:
+
+    User logs in using Name and Password:
+
+        Check for availability of user in DB if doesn’t exist, print does not match any user and ask user to try again.
+
+        If User exists and credentials match, Multiple options should be displayed:
+
+            Check leave balance
+
+            Leaves
+
+            WFH
+
+            Display the calendar for Holidays
+
+    If Selects “Check leave balance”:
+
+        Should check DB and display the number of casual and sick leaves available with dates and type of leaves already availed
+
+    If Selects “Leaves”:
+
+        Check status:
+
+            Show status based on the managers response, approved or pending
+
+            If pending, user can send a reminder to Manager, which will send an email again to manager
+
+        Cancel leave:
+
+            Only pending leaves can be cancelled,
+
+            Check DB for pending leaves and cancel if user wants to cancel
+
+        Apply for new Casual leave or sick leave:
+
+            One day
+
+            multiple days
+
+                Start day
+
+                End day
+
+                Should check calendar for weekends, and public holidays and should minus the number of days from available
+
+            Should send an email to respective manager and wait for approval
+
+            Should update the database and send an email to user after the approval
+
+        Take a Comp-off:
+
+            One day
+
+            multiple days
+
+                Start day
+
+                End day
+
+                Should check calendar for weekends, and public holidays and should minus the number of days from available
+
+            Select the number of dates of holidays on which employee worked(if employee needs 2 days comp off, then he should select 2 holidays on which he worked, if he selects dates of non-holidays, then it will throw a warning until he selects a holiday.
+
+            Should send an email to respective manager and wait for approval
+
+            Should send an email after the approval of manager
+
+    If Selects “WFH”:
+
+        Apply for WFH
+
+            One day
+
+                Enter date
+
+            multiple days
+
+                Start day
+
+                End day
+
+            Should send an email to respective manager and wait for approval
+
+            If approved, send an email to User
+
+        Check status:
+
+            Select the date to check status,
+
+            Display the status: Pending or Approved
+
+    If selects “calendar”:
+
+        Display the calendar for respective month, and list the Holidays in that month.
+
+
+
+About code:
+
+In single Database, Multiple tables will be used:
+
+    Credentials
+
+    Leave balances
+
+    WFH or Leave status
+
+    Email ids, Manager’s and user’s
+
+Code style:
+
+    Pep8 and Pylint standard
+
+    Classes, unit test
