@@ -1,6 +1,7 @@
 import requests
-
+from pprint import pprint # pprint helps in better illustration of json structure
 resp = requests.get('http://host:port/users')
-pritn resp.json()
+pprint(resp.json())
+
 resp = request.post("http://host:port/users", json={key:value})
-print resp
+pprint(resp.json())
