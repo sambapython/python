@@ -155,3 +155,4 @@ make instance iterable and provide the operation sp1+p2, p1-p2. Give your own de
 89. Get the information from the system for every minute and show the freespace and used space in the RAM. and performance of the CPU.
 90. "[{'id': 1, 'name': 'name1'}, {'id': 2, 'name': 'name2'}]" the data is in the form of string. Conver this in to list of dictionaries
 91. Find the ram and cpu performance for every hour and draw a consolidated bar graph for every day.
+92. Take the data set of sutdents with total marks and add the rank column.
