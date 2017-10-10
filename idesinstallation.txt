@@ -75,3 +75,45 @@ Download .exe file from the below url and install it.
 	http://httpd.apache.org/download.cgi
 psycopg2 installation:
  conda install psycopg2
+Anaconda installtion
+https://www.anaconda.com/download/
+download the package belongs to python2.7 from the above url
+windows:
+	will get a .exe file. Double click on the file and go with next option
+	NOTE: observe the check box, add anaconda path to environment variables and check the check box.
+              IT will show a red colour text once you click on it. But no need to worry about it.
+
+linux:
+	will get the .sh file. Run the file using below command.
+	bash filename.sh
+	It will prompt you for yes/no messages. Always say yes.
+After installing the anaconda, type conda command in the command prompt or in terminal. Should get an help text.
+
+With anaconda software will get python, ipython, ipython notebook, conda command. These tools helps to learn python, but not to develop an applications. To develop an application should use editors[sublimetext, pycharm, edit+, netbeans, eclipse]
+
+install sublimetext3: An Editor to develop the applications.
+	linux: ubuntu: Run the below commands
+		sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
+		sudo apt-get update; 
+		sudo apt-get install -y sublime-text-installer
+	Windows:
+		https://www.sublimetext.com/3
+		Goto above link and click on windows 64it or windows(depends on your os bit version)
+		This will downloads a .exe file. just doble click on this file to ins
+
+
+
+
+postgres installation steps:
+In linux:
+	sudo apt-get install postgresql postgresql-contrib
+	sudo apt-get install pgadmin3
+
+in windows:
+	http://www.enterprisedb.com/products-services-training/pgdownload#windows
+         Download package according to your system requirements.
+
+To install psycopg2:
+     pip install psycopg2
+     	(or)
+     conda install psycopg2
