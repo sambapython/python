@@ -163,4 +163,29 @@ make instance iterable and provide the operation sp1+p2, p1-p2. Give your own de
 97. check whether given number is armstrong number or not
 98. Find bigest armstrong number in a given range
 99. print first ten armstrong numbers
-100. 
+100. WAP to reverse each word in the given sentence.
+101. WAP to find the duplicated words in the given sentence.
+102. How to check if two Strings are anagrams of each other?
+     anagram:  Two strings are anagrams if they are written using the same exact letters, ignoring space, punctuation and capitalization. Each letter should have the same count in both strings. For example, Army and Mary are anagram of each other.
+
+103. How to program to print first non repeated character from String?
+        for Example if given String is "Morning" then it should print "M". This question demonstrates efficient use of Hashtable. We scan the string from left to right counting the number occurrences of each character in a Hashtable. Then we perform a second pass and check the counts of every character. Whenever we hit a count of 1 we return that character, that’s the first unique letter. Be prepared for follow-up question for improving memory efficiency, solving it without hash table as well.
+
+104. How to find all permutations of String? 
+      for example, the if input is "xyz" then it should print "xyz", "yzx", "zxy", "xzy", "yxz", "zyx".
+
+105. How to check if String is Palindrome?
+	For example, if the input is "radar", the output should be true, if input is "madam" output will be true, and if input 		is "python" output should be false.
+106. How to remove duplicate characters from String?
+	For example, if the input is ‘bananas’ the output will be ‘bans’. Pay attention to what output could be, because if you 	look closely original order of characters are retained the in output.
+107. How  to return highest occurred character in a String?
+
+	For example if input is "aaaaaaaaaaaaaaaaabbbbcddddeeeeee" it should return "a".
+108. How to sort String?
+
+
+
+
+
+
+
