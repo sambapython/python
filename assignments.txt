@@ -187,6 +187,11 @@ make instance iterable and provide the operation sp1+p2, p1-p2. Give your own de
 110. Perform letft and right shift on strings.
 111.  Reverse the words in string eg. 'The Sky is Blue'. 
 	then print 'Blue is Sky The'.
+112. WAP client/server program
+     client: ask the cusotmer id to enter by user, send customer id
+     service: recieve custid, look for data in database, get the data from data base. send it to client
+     client: print that data in his console
+     
 
 
 
