@@ -191,8 +191,9 @@ make instance iterable and provide the operation sp1+p2, p1-p2. Give your own de
      client: ask the cusotmer id to enter by user, send customer id
      service: recieve custid, look for data in database, get the data from data base. send it to client
      client: print that data in his console
-     
-
+113. s="abcd;efgh;ijkl;mnop" split the string by keeping ; in the end of each element of the list
+      i.e ["abcd;","efgh;","ijkl;","mnop"]
+      
 
 
 
