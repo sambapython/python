@@ -192,7 +192,12 @@ make instance iterable and provide the operation sp1+p2, p1-p2. Give your own de
      service: recieve custid, look for data in database, get the data from data base. send it to client
      client: print that data in his console
      
-
+conditional statements assignments
+113. take the number of passengers. number of seats for a bus, howmany busses required to travel
+114. take temp in foreightheat -> celcius
+115. take number from the user decide whether it is evn or od-> positive number or negative number
+116. take a string from the user print the length. if the user not given anything show an error message
+117. code to perform mathematical operations. take two numbers from the user: 1. ad, 2. sub, 3. mul, 4.div, 5.quit
 
 
 
